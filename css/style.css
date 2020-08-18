@@ -15,13 +15,10 @@ body{
   padding: 20px 0;
 }
 .menu-container {
-  max-width: 960px; /*Já vamos deixá-lo responsivo*/
- /*margin-left: auto; Centralizar  mas não é tão usual, melhor usar o margin*/
-  /*margin-right: auto; /*Centralizar*/
+  max-width: 960px; 
   margin: 0 auto;
 }
-.menu-container::after, .menu-container::before{ /*Para resolver o problema de o conteudo flutuar
-  e bugar tudo*/
+.menu-container::after, .menu-container::before{ 
   content: "";
   display: table;
   clear: both;
@@ -29,9 +26,7 @@ body{
 .menu-logo{
   display: block;
   float: left;
-  margin-left: 10px; /*Para que ele fique alinhado com os conteúdos abaixo, pois,
-  a tela em si tem 960px e além disso o nosso desenho tem uma margem aproximada
-  de 10px entre os itens do menu e as bordas. Importante ver isso no adobe XD*/
+  margin-left: 10px; 
 }
 .menu-nav{
   float: right;
@@ -42,36 +37,29 @@ body{
 }
 .menu-nav a {
   display: block; 
-  padding: 10px; /*Aumentar a área de contato do botão e não é legal
-  colocar no li, pois só ficaria o local clicável no nome do link*/
+  padding: 10px; 
   text-decoration: none;
   color: #fff;
-  font-size: 1.125em; /*Cáculo: 18px/16px pois eu quero 18px, se fosse
-  32 seria 32px/16px, onde a base dos browsers é essa*/
-  /*O em é usado pois possa ser que o usuário queira aumentar a tela e para isso
-  o em usa valores proporcionais. AJuda na responsividade*/
+  font-size: 1.125em; 
 }
 /*Intro*/
 .intro{
-background: url('../img/bg-intro.jpg') no-repeat center center; /*Center 2x pois 
-eu quero que ele alinhe no centro tanto da esquerda para a direita quanto no topo e bottom*/
-background-size: cover; /*Para que ele pegue 100% da área independente do tamanho de tela dele*/
-padding: 150px 0; /*Nao usamos o margin-top pois assim ele vai acabar empurrando todo o container para
-baixo junto com o background, visto que ele está junto a um background*/
+background: url('../img/bg-intro.jpg') no-repeat center center; 
+background-size: cover; 
+padding: 150px 0; 
 text-align: center;
 color:#fff ;
 }
 .intro h1{
   text-transform: uppercase;
-  font-size: 3em; /*48/16 = 3em*/
+  font-size: 3em;
 }
 .intro h1::after{
  content: "";
  display: block;
  width: 20px;
  height: 4px;
- background: #fff; /*Como acima temos um elemento com o padrão display block, o mesmo vai
- pegar 100% do conteúdo e vai acabar empurrando o pseudo-element, aí para centralizar usa o comando abaixo*/
+ background: #fff; 
  margin: 10px auto;
 }
 .intro p{
