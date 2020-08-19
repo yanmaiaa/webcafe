@@ -7,3 +7,6 @@
 
 ![](.github/webcafe.gif)
 
+<h2>Etapa 02 - Section Produtos</h2>
+
+![](.github/webcafe-produtos.gif)
