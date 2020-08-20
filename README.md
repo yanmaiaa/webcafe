@@ -1,12 +1,22 @@
 <h1>Webpage Project 02 - Brafé</h1> 
 
-<p>Webpage construída para testar diferentes formas de utilizar o Css numa page. Aqui irei fazer para uma mesma aplicação a "estilização" utilizando Css puro, Grid, FLexbox e bootstrap como forma de estudo fazendo um paralelo entre as possíveis formas de se utilizar css numa aplicação web bem como os seus níveis de complexidade.</p><br>
-<p><b>OBS.: Aqui o foco não será o conteúdo em html, mas sim, o css que será aplicado para dá estilo à página.<b><br>
+<p>Webpage construída para testar diferentes formas de estilizar uma aplicação com Css.</p><br>
+<h2>O que foi utilizado:</h2><br>
+<p>1. Css Puro</p>
+<p>2. Grid</p>
+<p>3. Flexbox</p>
+<p>4. Bootstrap</p>
 
-<h2>Etapa 01 - Página Inicial</h2>
+<h2>Webpage:</h2>
 
 ![](.github/webcafe.gif)
 
-<h2>Etapa 02 - Section Produtos</h2>
+<h2>Responsividade - Tablet:</h2>
 
-![](.github/webcafe-produtos.gif)
+![](.github/webcafe-tablet.gif)
+
+<h2>Responsividade - Mobile:</h2>
+
+![](.github/webcafe-mobile.gif)
+
+
