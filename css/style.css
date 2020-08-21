@@ -13,7 +13,7 @@ body {
 * {
 	box-sizing: border-box;
 }
-img { /*Colocado por causa do gird, para evitar problemas na responsividade mobile*/
+img { 
   max-width: 100%;
   display: block;
 }

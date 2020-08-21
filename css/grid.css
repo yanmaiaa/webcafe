@@ -1,33 +1,22 @@
-/*Primeira coisa a se definir é uma class container*/
-/*Abaixo está escrita uma class para todos os containers*/
 .container{
   max-width: 960px;
   margin: 0 auto;
 }
-/*Definido pois vou ter algum elemento ainda com float, logo, é melhor utilizá-lo*/
 .container::after, .container::before{
   content: "";
   display: table;
   clear: both;
 }
-/*Criaremos os grid ou columss - Os tamanhos foram pegados no adobe XD*/
-/*Colocamos essas propriedades aqui pois vão ser comuns a todos*/
 .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10,
 .grid-11, .grid-12{
   margin-left: 10px;
   margin-right: 10px;
-  float: left; /*Sempre colocar, pois todo grid flutua*/
-  display: block;/*É uma boa prática colocar pois independente do elemento que colocarmos
-  se for inline etc,ele já transforma o elemento pra block e faz a flutuação e aí o width
-  vai pegar de forma perfeita*/
+  float: left; 
+  display: block;
   min-height: 1px;
 }
-/*Melhor colocar em porcentagem pois ele sempre iria pegar a porcentagem da tela total
-independente do tamanho que fosse definido*/
-/*=> 100/12(grids) = 8.333%*/
 .grid-1{
-  width: calc(8.333% - 20px); /*Para evitar que quebre, utilizaremos a porcentagem menos os px do margin left
-  e right com esses comandos*/
+  width: calc(8.333% - 20px); 
 }
 .grid-2{
   width: calc(16.666% - 20px);
