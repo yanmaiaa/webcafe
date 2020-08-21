@@ -26,40 +26,31 @@
   </header>
 
   <main class="intro">
-    <!--Não preciso de container dentro de container pois 
-  o conteúdo fica no meio da página, assim, não precisamos de algo que segure ele em 960px-->
-    <!--Tag de conteúdo principal da página que seria a introdução-->
+
     <h1>Cafés com a cara<br> do Brasil</h1>
     <p>Direto das fazendas da Bahia</p>
   </main>
   <section class="sobre">
-    <!--Como não pega nenhum background, coloca o container
-  direto na section-->
+
     <h2>Uma mistura de</h2>
     <div class="container">
-      <!--Os grids vem sempre dentro dos blocos
-      onde tem os containers-->
-      <!--O container segura esses elementos onde cada
-    um vai ter um float-->
-      <!--Um container geral com outras divs onde vou arrumar cada uma-->
+
       <div class="sobre-item grid-6">
         <img src="img/cafe-1.jpg" alt="Café 1">
         <h3>amor</h3>
-        <!--Titulo embaixo da foto-->
       </div>
       <div class="sobre-item grid-6">
         <img src="img/cafe-2.jpg" alt="Café 2">
         <h3>perfeição</h3>
       </div>
-      <p>O café é uma bebida produzida a partir dos grãos torrados
-        do fruto do cafeeiro. É servido tradicionalmente quente, mas
-        também pode ser consumido gelado. Ele é um estimulante, por
-        possuir cafeína - geralmente 80 a 140mg para cada 207ml
-        dependendo do método de preparação.</p>
     </div>
+    <p>O café é uma bebida produzida a partir dos grãos torrados
+      do fruto do cafeeiro. É servido tradicionalmente quente, mas
+      também pode ser consumido gelado. Ele é um estimulante, por
+      possuir cafeína - geralmente 80 a 140mg para cada 207ml
+      dependendo do método de preparação.</p>
   </section>
-  <!--Lembrete: Quando o background é branco usa o body do site, quando tem outra
-  cor,usa uma section e um div dentro com a section assumindo como container-->
+
   <section class="produtos">
     <div class="container">
       <div class="produtos-item grid-4">
@@ -75,7 +66,7 @@
           Castelo Branco trouxe mudas do Pará.</p>
       </div>
       <div class="produtos-item grid-4">
-        <h2 class="produtos-mineirao">Mineiro</h2>
+        <h2 class="produtos-mineiro">Mineiro</h2>
         <p>As condições climáticas não eram as melhores nessa primeira escolha
           e, entre 1800 e 1850, tentou-se o cultivo noutras regiões: O João Alberto
           Castelo Branco trouxe mudas do Pará.</p>
@@ -85,11 +76,8 @@
   </section>
 
   <section class="locais">
-    <!--Nao temos aqui uma div que envolva tudo pois nao temos um
-  background de ponta a ponta. Vamos pegar o background do site-->
+
     <div class="locais-item  container">
-      <!--Agora ao contianer fica aqui, pois o 
-    grid-6 tem  class de flutuar-->
       <div class="grid-6">
         <img src="img/botafogo.jpg" alt="Brafé Unidade Botafogo">
       </div>
@@ -101,7 +89,6 @@
       </div>
     </div>
     <div class="locais-item container">
-      <!--Quando temos um grid as vezes usamos algumas divs para segurar nosso grid-->
       <div class="grid-6">
         <img src="img/iguatemi.jpg" alt="Brafé Unidade iguatemi">
       </div>
@@ -126,8 +113,6 @@
   </section>
 
   <section class="assine">
-    <!--Vamos ter a section e dentro um div tod vez que o fundo do background não
-  for branco e que pegar de ponta a ponta-->
     <div class="container">
       <div class="assine-info grid-6">
         <h2>Assine Nossa Newsletter</h2>
@@ -141,8 +126,6 @@
     </div>
   </section>
   <footer class="footer">
-    <!--Imagem geralmente é bom envolver numa div e não colocar uma grid direto nela
-    para mante-lá responsiva-->
     <div class="container">
       <p class="grid-8">Este é um projeto de cunho educacional.<br>Salvador-BA, Brasil.</p>
       <div class="grid-4">
