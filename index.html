@@ -53,57 +53,59 @@
 
   <section class="produtos">
     <div class="container">
-      <div class="produtos-item">
-        <h2 class="produtos-paulista">Paulista</h2>
-        <p>As condições climáticas não eram as melhores nessa primeira escolha
-          e, entre 1800 e 1850, tentou-se o cultivo noutras regiões: O João Alberto
-          Castelo Branco trouxe mudas do Pará.</p>
+      <div class="row">
+        <div class="produtos-item col-sm">
+          <h2 class="produtos-paulista">Paulista</h2>
+          <p>As condições climáticas não eram as melhores nessa primeira escolha
+            e, entre 1800 e 1850, tentou-se o cultivo noutras regiões: O João Alberto
+            Castelo Branco trouxe mudas do Pará.</p>
+        </div>
+        <div class="produtos-item col-sm">
+          <h2 class="produtos-carioca">Carioca</h2>
+          <p>As condições climáticas não eram as melhores nessa primeira escolha
+            e, entre 1800 e 1850, tentou-se o cultivo noutras regiões: O João Alberto
+            Castelo Branco trouxe mudas do Pará.</p>
+        </div>
+        <div class="produtos-item col-sm">
+          <h2 class="produtos-mineiro">Mineiro</h2>
+          <p>As condições climáticas não eram as melhores nessa primeira escolha
+            e, entre 1800 e 1850, tentou-se o cultivo noutras regiões: O João Alberto
+            Castelo Branco trouxe mudas do Pará.</p>
+        </div>
       </div>
-      <div class="produtos-item ">
-        <h2 class="produtos-carioca">Carioca</h2>
-        <p>As condições climáticas não eram as melhores nessa primeira escolha
-          e, entre 1800 e 1850, tentou-se o cultivo noutras regiões: O João Alberto
-          Castelo Branco trouxe mudas do Pará.</p>
-      </div>
-      <div class="produtos-item">
-        <h2 class="produtos-mineiro">Mineiro</h2>
-        <p>As condições climáticas não eram as melhores nessa primeira escolha
-          e, entre 1800 e 1850, tentou-se o cultivo noutras regiões: O João Alberto
-          Castelo Branco trouxe mudas do Pará.</p>
-      </div>
+      <a class="produtos-btn" href="#">Saiba Mais</a>
     </div>
-    <a class="produtos-btn" href="#">Saiba Mais</a>
   </section>
 
-  <section class="locais">
+  <section class="locais container">
 
-    <div class="locais-item  container">
-      <div class="locais-img">
+    <div class="locais-item  row">
+      <div class="col-sm">
         <img src="img/botafogo.jpg" alt="Brafé Unidade Botafogo">
       </div>
-      <div class="locais-info">
+      <div class="col-sm">
         <h2>Botafogo</h2>
         <p>As condições climáticas não eram as melhores inicialmente, entre 1800 e 1850,
           tentou-se o cultivo.</p>
         <a href="#">Ver Mapa</a>
       </div>
     </div>
-    <div class="locais-item container">
-      <div class="locais-img">
+    <div class="locais-item row">
+      <div class="col-sm">
         <img src="img/iguatemi.jpg" alt="Brafé Unidade iguatemi">
       </div>
-      <div class="locais-info">
+      <div class="col-sm">
         <h2>Iguatemi</h2>
         <p>As condições climáticas não eram as melhores inicialmente, entre 1800 e 1850,
           tentou-se o cultivo.</p>
         <a href="#">Ver Mapa</a>
       </div>
     </div>
-    <div class="locais-item container">
-      <div class="locais-img">
+    <div class="locais-item row">
+      <div class="col-sm">
         <img src="img/mineirao.jpg" alt="Brafé Unidade Mineirão">
       </div>
-      <div class="locais-info">
+      <div class="col-sm">
         <h2>Mineirão</h2>
         <p>As condições climáticas não eram as melhores inicialmente, entre 1800 e 1850,
           tentou-se o cultivo.</p>
@@ -114,22 +116,26 @@
 
   <section class="assine">
     <div class="container">
-      <div class="assine-info">
-        <h2>Assine Nossa Newsletter</h2>
-        <p>promoções e eventos mensais</p>
+      <div class="row">
+        <div class="assine-info col-sm">
+          <h2>Assine Nossa Newsletter</h2>
+          <p>promoções e eventos mensais</p>
+        </div>
+        <form class="col-sm">
+          <label for="email">E-mail</label>
+          <input type="text" name="email" placeholder="Digite o seu e-mail">
+          <button type="submit">Enviar</button>
+        </form>
       </div>
-      <form>
-        <label for="email">E-mail</label>
-        <input type="text" name="email" placeholder="Digite o seu e-mail">
-        <button type="submit">Enviar</button>
-      </form>
     </div>
   </section>
   <footer class="footer">
     <div class="container">
-      <p>Este é um projeto de cunho educacional.<br>Salvador-BA, Brasil.</p>
-      <div class="footer-img">
-        <img src="img/brafe.png" alt="Brafé">
+      <div class="row">
+        <p class="col-sm">Este é um projeto de cunho educacional.<br>Salvador-BA, Brasil.</p>
+        <div class="col">
+          <img src="img/brafe.png" alt="Brafé">
+        </div>
       </div>
     </div>
   </footer>
